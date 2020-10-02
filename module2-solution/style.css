@@ -60,12 +60,10 @@ h1 {
   .col-md-6,.col-md-12 {
     float: left;
   }
- 
-  
   .col-md-6 {
     width: 50%;
   }
-  .col-md-12,.block3 {
+  .col-md-12{
     width: 100%;
   }
   
