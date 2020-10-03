@@ -10,40 +10,31 @@ h1 {
 }
 .block{
     border: 3px solid black;
-    background-color: gray;
+    background-color: #949494;
     width: 95%;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
 }
-#title1{
-    margin-left: 70%;
-    text-align: center;
-    font-weight: bold;
+.t1{
     background-color: lightpink;
-    border-bottom: 3px solid black;
-    border-left: 3px solid black;
-    padding: 5px;
 }
-#title2{
-    margin-left: 70%;
-    text-align: center;
-    font-weight: bold;
+.t2{
+    color:white;
     background-color: #ff6961;
-    border-bottom: 3px solid black;
-    border-left: 3px solid black;
-    padding: 5px;
 }
-#title3{
-    margin-left: 70%;
+.t3{
+    background-color: #F6E8B1;
+}
+#title{
+    margin-left: 65%;
     text-align: center;
     font-weight: bold;
-    background-color: #F6E8B1;
+    font-size: 120%;
     border-bottom: 3px solid black;
     border-left: 3px solid black;
-    padding: 5px;
+    padding: 7px;
 }
-
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
@@ -53,9 +44,6 @@ h1 {
 @media (min-width: 922px) {
     .col-lg-4 {
         float: left;
-}
-    
-    .col-lg-4 {
         width: 33.33%;
     }
 }
