@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
 }
+body{
+  background-image: url("https://images.hdqwalls.com/download/best-nature-image-1440x900.jpg");
+  background-repeat: no;
+  background-size: 100%;
+}
 h1 {
   text-align: center;
   margin: 45px;
