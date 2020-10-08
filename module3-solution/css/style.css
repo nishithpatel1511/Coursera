@@ -67,14 +67,30 @@ h2{
   font-weight: bold;
   font-size: 1.5em;
 }
+.t1{
+    background-color: lightpink;
+}
+.t2{
+    color:white;
+    background-color: #ff6961;
+}
+.t3{
+    background-color: #F6E8B1;
+}
 #title{
-  background-color: ;
+  color: black;
   border: 1px solid black;
   padding: 5px 30px;
 }
 .menu-item-description{
+  padding: 15px;
   margin: 10px;
   font-size: 1.2em;
+}
+@media(min-width: 1090px){
+  .navbar-brand h1{
+    margin-left: -45px;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -86,6 +102,7 @@ h2{
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
+    margin-left: 0px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
   #collapsable-nav a { /* Collapsed nav menu text */
@@ -95,7 +112,7 @@ h2{
     font-size: 1em;
     margin-right: 5px;
   }
-
+  
   /* End Header */
   .menu-item-tile{
     background-color: gray;
