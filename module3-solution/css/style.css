@@ -4,40 +4,30 @@ body {
   background-color: #61122f;
 }
 
-h2{
-  text-align: center;
-  margin-top: 30px;
-}
-.menu-item-tile{
-  background-color: gray;
-    margin-top: 25px;
-  margin-left: -45px;
-    margin-right: -45px;
-}
-.menu-item-tile .menu-item-title{
-  padding-top: 15px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5em;
-}
-#title{
-  background-color: ;
-  border: 1px solid black;
-  padding: 5px 30px;
-}
-.menu-item-description{
-  margin: 10px;
-  font-size: 1.2em;
-}
 /** HEADER **/
 #header-nav {
   background-color: #f6b319;
   border-radius: 0;
   border: 0;
 }
+.navbar-brand {
+  padding-top: 25px;
+  height: 100px;
+}
+
+.navbar-brand h1 {
+  color: #557c3e;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
+
 #nav-list {
   margin-top: 10px;
 }
@@ -61,6 +51,32 @@ h2{
 }
 /* END HEADER */
 
+h2{
+  text-align: center;
+  margin-top: 30px;
+}
+.menu-item-tile{
+  background-color: gray;
+  margin-top: 25px;
+  margin-left: -45px;
+  margin-right: -45px;
+}
+.menu-item-tile .menu-item-title{
+  padding-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#title{
+  background-color: ;
+  border: 1px solid black;
+  padding: 5px 30px;
+}
+.menu-item-description{
+  margin: 10px;
+  font-size: 1.2em;
+}
+
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
@@ -79,6 +95,12 @@ h2{
     font-size: 1em;
     margin-right: 5px;
   }
-  /* End Header */
 
+  /* End Header */
+  .menu-item-tile{
+    background-color: gray;
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
