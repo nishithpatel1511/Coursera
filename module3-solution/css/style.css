@@ -1,15 +1,15 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: powderblue;
+  background-image: url("https://images.hdqwalls.com/download/best-nature-image-1440x900.jpg");
+  background-repeat: no;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
 /** HEADER **/
 #header-nav {
   background-color: black;
-  position: fixed;
-  width: 100%;
-  overflow: hidden;
   border-radius: 0;
   border: 0;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .navbar-brand h1 {
-  color: yellow;
+  color: orange;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -35,7 +35,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: orange;
   text-align: center;
 }
 #nav-list a:hover {
@@ -57,15 +57,16 @@ body {
 h2{
   color: black;
   text-align: center;
-  margin-top: 130px;
+  margin-top: 25px;
 }
 h2 span{
+  font-weight: bold;
   padding: 10px 20px 10px 20px;
   border: 1px solid black;
-  background-color: #eea47fff;
+  color: black;
 }
 .menu-item-tile{
-  background-color: #a8a8a8;
+  background-color: #fed8b1;
   border: 1px solid black;
   margin-top: 25px;
   margin-left: -45px;
@@ -78,14 +79,14 @@ h2 span{
   font-size: 1.5em;
 }
 .t1{
-    background-color: lightpink;
+    background-color: pink;
 }
 .t2{
     color:white;
     background-color: #ff6961;
 }
 .t3{
-    background-color: #F6E8B1;
+    background-color: #cc99ff;
 }
 #title{
   color: black;
@@ -95,6 +96,7 @@ h2 span{
 .menu-item-description{
   padding: 15px;
   margin: 10px;
+  color: black;
   font-size: 1.2em;
 }
 @media(min-width: 1090px){
@@ -106,6 +108,9 @@ h2 span{
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
+  body{
+    background-image: url("");
+  }
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
@@ -113,7 +118,7 @@ h2 span{
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
     margin-left: 0px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    font-size: 9vw; /* 1vw = 1% of viewport width */
   }
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
@@ -125,7 +130,6 @@ h2 span{
   
   /* End Header */
   .menu-item-tile{
-    background-color: gray;
     margin-top: 25px;
     margin-left: 0px;
     margin-right: 0px;
