@@ -1,10 +1,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-image: url("https://images.hdqwalls.com/download/best-nature-image-1440x900.jpg");
-  background-repeat: no;
-  background-size: 100%;
-  background-attachment: fixed;
+  background-color: powderblue;
 }
 
 /** HEADER **/
@@ -19,7 +16,7 @@ body {
 }
 
 .navbar-brand h1 {
-  color: orange;
+  color: yellow;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -62,11 +59,12 @@ h2{
 h2 span{
   font-weight: bold;
   padding: 10px 20px 10px 20px;
+  background-color: #eea47fff;
   border: 1px solid black;
   color: black;
 }
 .menu-item-tile{
-  background-color: #fed8b1;
+  background-color: #a8a8a8;
   border: 1px solid black;
   margin-top: 25px;
   margin-left: -45px;
@@ -108,9 +106,6 @@ h2 span{
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
-  body{
-    background-image: url("");
-  }
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
